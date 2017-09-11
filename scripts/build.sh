@@ -11,5 +11,5 @@ rsync -a ./src/* ./build --exclude="*.ts"
 tsc -p ./
 
 # 4. Compile source and intermediate *.js files into final output *.js files
-babel ./src -Dd ./dist --source-maps
+babel ./build -Dd ./dist --source-maps
 echo Done
