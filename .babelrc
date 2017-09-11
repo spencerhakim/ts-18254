@@ -1,0 +1,21 @@
+{
+  "sourceMaps": "both",
+  "sourceRoot": "./src",
+  "plugins": [
+    "external-helpers",
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-flow-strip-types"
+  ],
+  "presets": [
+    ["env", {
+      "useBuiltIns": true,
+      "targets": {
+          "node": "current"
+      }
+    }]
+  ],
+  "ignore": [
+    "bootstrap/babelHelpers.generated.js"
+  ]
+}

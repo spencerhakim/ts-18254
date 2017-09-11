@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./build",
+    "target": "es2017",
+    "module": "none",
+    "moduleResolution": "node",
+    "inlineSourceMap": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    // "noResolve": true,
+    "skipLibCheck": true,
+    "lib": [
+      "es5",
+      "es6"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}

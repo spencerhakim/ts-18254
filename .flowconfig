@@ -1,0 +1,10 @@
+[ignore]
+<PROJECT_ROOT>/build/.*
+<PROJECT_ROOT>/dist/.*
+
+# Flow, why do you make me do this?
+<PROJECT_ROOT>/node_modules/.*/node_modules/.*
+
+[options]
+include_warnings=true
+module.use_strict=true
